@@ -15,6 +15,7 @@ public class FileSaver {
 
 	public String write(String baseFolder, MultipartFile file) {
 
+		/*
 		try {
 			String realPath = request.getServletContext().getRealPath("/"+baseFolder);
 			String path = realPath + "/" + file.getOriginalFilename();
@@ -24,6 +25,9 @@ public class FileSaver {
 		} catch (IllegalStateException | IOException e) {
 			throw new RuntimeException(e);
 		}
+
+		 */
+		return null;
 	}
 
 
